@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run: echo "Do some things"
       - run: |
-          sudo apt-get update \
+          apt-get update \
           && apt-get install -yq \
           libnss3 \
           libnssutil3 \
