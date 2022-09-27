@@ -12,8 +12,7 @@ jobs:
       - checkout
       - run: echo "Do some things"
       - run: |
-          sudo apt-get update \
-          && sudo apt-get install -yq \
+          sudo apt-get install -yq \
           libnss3 \
           libnssutil3 \
           libsmime3 \
