@@ -12,20 +12,6 @@ jobs:
       - checkout
       - run: echo "Do some things"
       - run: |
-          sudo apt update \
-          && sudo apt-get install -yq \
-          libnss3 \
-          libatspi2.0-0 \
-          libatk-bridge2.0-0 \
-          libcupsfilters1 \
-          libxkbcommon0 \
-          libasound2 \
-          libxshmfence1 \
-          libxrandr2 \
-          libgbm1 \
-          libxcomposite1 \
-          libxdamage1
-      - run: |
           docker login -u "kunal777" -p "Welcome@77"
       - run: |
           docker build \
