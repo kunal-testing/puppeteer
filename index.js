@@ -1,3 +1,4 @@
+const fs = require("fs");
 const puppeteerManager = require('./puppeteerManager');
 
 const main = async() => {
@@ -6,7 +7,8 @@ const main = async() => {
           'B0B6J6PMDG',
           'US'
         );
-        console.log($("#title").text());
+        fs.writeFileSync('test.txt', 'testing: ');
+        fs.writeFileSync('test.txt', $("#title").text());
       } catch (puppeteerError) {
         console.error(puppeteerError);
         throw puppeteerError;
