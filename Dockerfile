@@ -5,8 +5,8 @@ FROM node:16
 WORKDIR /home/node/app
 COPY ./ /home/node/app
 RUN npm install
-RUN sudo apt update \
-        && sudo apt-get install -yq \
+RUN apt update \
+        && apt-get install -yq \
         libnss3 \
         libatspi2.0-0 \
         libatk-bridge2.0-0 \
