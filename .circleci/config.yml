@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run: echo "Do some things"
       - run: |
-          docker login -u "kunalpardeshi77@gmail.com" -p "Welcome@77"
+          docker login -u "kunal777" -p "Welcome@77"
       - run: |
           docker build \
             -t kunal777/puppeteer \
