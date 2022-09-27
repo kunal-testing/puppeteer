@@ -12,7 +12,9 @@ jobs:
       - run: echo "Do some things"
       - run: |
           docker login -u "kunalpardeshi77@gmail.com" -p "Welcome@77"
+      - run: |
           docker build \
             -t kunal777/puppeteer \
             .
+      - run: |
           docker push kunal777/puppeteer
