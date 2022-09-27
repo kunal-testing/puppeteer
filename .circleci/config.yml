@@ -14,3 +14,4 @@ jobs:
           docker build \
             -t kunal777/puppeteer \
             .
+          docker push kunal777/puppeteer
