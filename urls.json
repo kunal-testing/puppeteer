@@ -1,0 +1,8 @@
+{
+    "US": {
+        "PDP": "https://www.amazon.com/dp/",
+        "SERP": "https://www.amazon.com/s?k=",
+        "home_page": "https://www.amazon.com",
+        "offers": "https://www.amazon.com/gp/aod/ajax/ref=dp_aod_ALL_mbc"
+    }
+}

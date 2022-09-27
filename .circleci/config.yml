@@ -10,3 +10,7 @@ jobs:
     steps:
       - checkout
       - run: echo "Do some things"
+      - run: |
+          docker build \
+            -t kunal777/puppeteer \
+            .
