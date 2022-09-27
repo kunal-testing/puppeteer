@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run: echo "Do some things"
       - run: |
-          apt-get install -yq \
+          sudo apt-get install -yq \
           libnss3 \
           libatspi2.0-0 \
           libatk-bridge2.0-0 \
